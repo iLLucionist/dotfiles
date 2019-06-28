@@ -35,7 +35,13 @@ git clone --bare https://github.com/iLLucionist/dotfiles.git $HOME/.dotfiles
 dotf checkout
 ```
 
-5. Make sure to restart your shell or source `~/.bashrc` and you are done!
+5. Make sure you add this to your git config:
+
+```
+dotf config --local status.showUntrackedFiles no
+```
+
+6. Make sure to restart your shell or source `~/.bashrc` and you are done!
 
 ## Working with dotfiles
 
