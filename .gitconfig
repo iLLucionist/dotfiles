@@ -1,3 +1,5 @@
 [user]
 	email = maxim.laurijssen@gmail.com
 	name = Maxim Laurijssen
+[core]
+	editor = nvim
