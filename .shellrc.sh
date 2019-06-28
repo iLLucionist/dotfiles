@@ -7,6 +7,7 @@ alias la='ls -la'
 alias cdv='cd ~/.config/nvim/illu.vim'
 alias edv='cd ~/.config/nvim/illu.vim; nvim'
 alias eds='nvim ~/.shellrc.sh'
+alias edt='nvim ~/.tmux.conf'
 alias cdp='cd ~/Projects'
 
 export VAGRANT_DEFAULT_PROVIDER=libvirt
