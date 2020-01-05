@@ -1,5 +1,6 @@
 alias dotf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
+alias xqm='xbps-query -m'
 alias xq='xbps-query -Rs '
 alias xi='sudo xbps-install '
 alias l='ls -l'
@@ -15,3 +16,5 @@ alias dentry='cd ~/Diary; DATE=`date +%d-%m-%Y`; FILE="entry_$DATE.md"; touch $F
 alias diary='cd ~/Diary; nvim'
 
 export VAGRANT_DEFAULT_PROVIDER=libvirt
+
+export PATH=~/.yarn/bin:$PATH
