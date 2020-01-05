@@ -1,5 +1,6 @@
 alias dotf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
+alias xqm='xbps-query -m'
 alias xq='xbps-query -Rs '
 alias xi='sudo xbps-install '
 alias l='ls -l'
@@ -18,3 +19,5 @@ alias gs="git status"
 export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
 export VAGRANT_DEFAULT_PROVIDER=libvirt
+
+export PATH=~/.yarn/bin:$PATH
