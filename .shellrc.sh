@@ -1,4 +1,5 @@
 alias dotf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias illu='/usr/bin/git --git-dir=$HOME/.config/nvim/illu.vim/.git --work-tree=$HOME/.config/nvim/illu.vim'
 alias ls='ls --color=auto'
 alias xqm='xbps-query -m'
 alias xq='xbps-query -Rs '
