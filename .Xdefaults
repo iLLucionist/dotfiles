@@ -36,9 +36,9 @@ Xft.hintingstyle: hintfull
 URxvt*depth: 32
 URxvt*buffered: true
 URxvt*background: rgba:0000/0000/0000/dddd
-URxvt*foreground: #d0d0d0
+URxvt*foreground: #eaeaea
 URxvt*scrollBar: false
-URxvt*font: xft:DejaVu Sans Mono:antialias=true:pixelsize:10
+URxvt*font: xft:Hack Nerd Font:size=11:antialias=true
 URxvt*letterSpace: -1
 URxvt*transparent: false
 URxvt*fading: 2%
@@ -48,7 +48,6 @@ URxvt*hinting: true
 URxvt*antialias: true
 
 ! --- standard colors ---
-
 ! black
 *color0: #191919
 
@@ -97,9 +96,10 @@ URxvt*antialias: true
 ! bright_white
 *color15: #ffffff
 
-rofi.color-window: argb: 99000000, argb: FFCC3535, argb: FFA0A0A0
-rofi.color-normal: argb: 00FF0000, #D0D0D0, argb: 1AA0A0A0, argb: AACC3535, #FFFFFF
+/* rofi.color-window: argb: 99000000, argb: FFCC3535, argb: FFA0A0A0 */
+rofi.color-window: #151515, #606060, #303030
+rofi.color-normal: #151515, #909090, #202020, #E0E0E0, #000
 rofi.separator-style: none
 rofi.font: DejaVu Sans Mono 11
 rofi.hide-scrollbar: true
-rofi.modi: window, run, ssh
+/* rofi.modi: window, run, ssh */
