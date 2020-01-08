@@ -16,6 +16,7 @@ alias c='clear'
 alias dentry='cd ~/Diary; DATE=`date +%d-%m-%Y`; FILE="entry_$DATE.md"; touch $FILE; echo "# Diary Entry $DATE" >> $FILE; nvim $FILE'
 alias diary='cd ~/Diary; nvim'
 alias gs="git status"
+alias v="nvim"
 
 export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
