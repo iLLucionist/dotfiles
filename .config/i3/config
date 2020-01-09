@@ -175,12 +175,13 @@ bindsym $basekey+r mode "resize"
 bar {
     status_command SCRIPT_DIR=/usr/libexec/i3blocks i3blocks 
     colors {
-       focused_workspace #cc3535 #cc3535 #ffffff
+       focused_workspace #6c4c75 #6c4c75 #ffffff
     }
 }
 
 # client.focused #cc3535 #cc3535 #ffffff #996666 #cc3535
-client.focused #713792 #713792 #ffffff #996666 #000000
+#client.focused #713792 #713792 #ffffff #996666 #000000
+client.focused #6c4c75 #6c4c75 #ffffff #996666 #000000
 client.unfocused #000000 #000000 #a0a0a0 #a0a0a0 #000000
 client.focused_inactive #000000 #a0a0a0 #000000 #000000 #000000
 
