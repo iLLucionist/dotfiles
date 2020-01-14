@@ -1,3 +1,7 @@
+prettyjsonCmd() {
+    python -m json.tool $1
+}
+
 alias dotf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias illu='/usr/bin/git --git-dir=$HOME/.config/nvim/illu.vim/.git --work-tree=$HOME/.config/nvim/illu.vim'
 alias ls='ls --color=auto'
@@ -18,6 +22,7 @@ alias dentry='cd ~/Diary; DATE=`date +%d-%m-%Y`; FILE="entry_$DATE.md"; touch $F
 alias diary='cd ~/Diary; nvim'
 alias gs="git status"
 alias v="nvim"
+alias prettyjson=prettyjsonCmd
 
 export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
