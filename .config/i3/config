@@ -188,6 +188,7 @@ client.focused_inactive #000000 #a0a0a0 #000000 #000000 #000000
 exec --no-startup-id xrdb -load ~/.Xdefaults
 exec --no-startup-id xfsettingsd --sm-client-disable &
 # exec --no-startup-id vmware-user-suid-wrapper
+exec --no-startup-id vboxclient
 exec --no-startup-id compton --backend glx
 
 bindsym $basekey+Control+j move workspace to output left
