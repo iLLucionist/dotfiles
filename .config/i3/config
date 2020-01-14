@@ -143,6 +143,9 @@ bindsym $basekey+Shift+c reload
 bindsym $basekey+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $basekey+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+# Start file browser
+bindsym $basekey+Shift+f exec "thunar"
+bindsym $basekey+Shift+b exec "firefox"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -189,6 +192,7 @@ exec --no-startup-id xrdb -load ~/.Xdefaults
 exec --no-startup-id xfsettingsd --sm-client-disable &
 # exec --no-startup-id vmware-user-suid-wrapper
 exec --no-startup-id compton --backend glx
+exec --no-startup-id devmon
 
 bindsym $basekey+Control+j move workspace to output left
 bindsym $basekey+Control+k move workspace to output right
