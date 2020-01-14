@@ -10,6 +10,7 @@ alias cdv='cd ~/.config/nvim/illu.vim'
 alias edv='cd ~/.config/nvim/illu.vim; nvim'
 alias eds='nvim ~/.shellrc.sh'
 alias edt='nvim ~/.tmux.conf'
+alias ed3='nvim ~/.config/i3/config'
 alias cdp='cd ~/Projects'
 alias cdd="cd ~/Diary"
 alias c='clear'
