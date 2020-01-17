@@ -23,6 +23,7 @@ alias diary='cd ~/Diary; nvim'
 alias gs="git status"
 alias v="nvim"
 alias prettyjson=prettyjsonCmd
+alias poff="~/Scripts/power_off.sh"
 
 export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
