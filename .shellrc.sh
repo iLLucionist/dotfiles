@@ -29,4 +29,4 @@ export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
 export VAGRANT_DEFAULT_PROVIDER=libvirt
 
-export PATH=~/.yarn/bin:$PATH
+export PATH=~/.yarn/bin:~/Scripts:$PATH

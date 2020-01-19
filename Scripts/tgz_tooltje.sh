@@ -5,6 +5,7 @@ DIRS=(idash hrai)
 for dir in "${DIRS[@]}"
 do
     fname="${dir}-${DATE}"
-    dirname="$HOME/Projects/${dir}/"
+    #dirname="$HOME/Projects/${dir}/"
+    dirname="${dir}/"
     tar -czvf $fname $dirname
 done
