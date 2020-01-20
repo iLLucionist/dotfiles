@@ -24,6 +24,7 @@ alias gs="git status"
 alias v="nvim"
 alias prettyjson=prettyjsonCmd
 alias poff="~/Scripts/power_off.sh"
+alias weather="curl wttr.in"
 
 export LANG="en_US.UTF-8"
 export PATH=$PATH:~/.yarn/bin/
