@@ -195,9 +195,10 @@ exec --no-startup-id xrdb -load ~/.Xdefaults
 exec --no-startup-id xfsettingsd --sm-client-disable &
 # exec --no-startup-id vmware-user-suid-wrapper
 exec --no-startup-id vboxclient
-exec --no-startup-id compton --backend glx
+exec --no-startup-id compton
 exec --no-startup-id devmon
 
 bindsym $basekey+Control+j move workspace to output left
 bindsym $basekey+Control+k move workspace to output right
 bindsym $basekey+Tab exec --no-startup-id rofi -show window
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
