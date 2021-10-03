@@ -94,7 +94,7 @@ interval=5
 # see the script for details.
 
 [temperature]
-command=$SCRIPT_DIR/temperature
+command=~/.config/i3blocks/cputemp.sh
 label=CPU 
 interval=10
 separator=false

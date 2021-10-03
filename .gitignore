@@ -1,1 +1,4 @@
 .dotfiles/
+reports/
+tags
+node_modules

@@ -1,3 +1,5 @@
+#include ".urxvt/ext/config"
+
 ! xscreensaver ---------------------------------------------------------------
 
 !font settings
@@ -46,6 +48,7 @@ URxvt*fadeColor: grey
 URxvt*shading: 75
 URxvt*hinting: true
 URxvt*antialias: true
+URxvt*perl-ext-common:copypastor,selector,focus-events
 
 ! --- standard colors ---
 ! black
@@ -103,3 +106,4 @@ rofi.separator-style: none
 rofi.font: DejaVu Sans Mono 11
 rofi.hide-scrollbar: true
 /* rofi.modi: window, run, ssh */
+
