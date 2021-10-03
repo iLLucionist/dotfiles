@@ -36,10 +36,8 @@ alias weather="curl wttr.in"
 alias resource='source ~/.bashrc'
 
 export LANG="en_US.UTF-8"
-export PATH=$PATH:~/.yarn/bin/
-export VAGRANT_DEFAULT_PROVIDER=libvirt
+export PATH=~/.yarn/bin:~/Scripts:~/.local/bin:$PATH
 
-export PATH=~/.yarn/bin:~/Scripts:$PATH
-export PATH=/home/maximl/.local/bin:$PATH
+export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 export PYTHONPATH=$PYTHONPATH:~/.pymods
